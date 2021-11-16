@@ -8,8 +8,14 @@ export default createGlobalStyle`
     --gradient: linear-gradient(to bottom right, #C3E3FA, #EFAFBC);
     --black1: #5F5F5F;
     --black2: #787878;
+    --black3: #444444;
+    --black4: #656565;
+    --white: #fff;
     --hover-color: #79BCCF;
     --font1: sans-serif;
+    --regular: 400;
+    --medium: 500;
+    --extrabold: 900;
   }
 
   * {

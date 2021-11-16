@@ -1,9 +1,9 @@
 import Global from './global';
 
 //Components
-import Background from './components/background';
 import Header from './components/header/index';
-
+import Home from './pages/home';
+import Background from './components/background/index';
 
 //Functions
 function App() {
@@ -11,6 +11,7 @@ function App() {
     <>
       <Global />
       <Header />
+      <Home />
       <Background />
     </>
   );
