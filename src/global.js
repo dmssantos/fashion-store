@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-
-  
-
   :root {
     --gradient: linear-gradient(to bottom right, #C3E3FA, #EFAFBC);
     --black1: #5F5F5F;
@@ -11,10 +8,12 @@ export default createGlobalStyle`
     --black3: #444444;
     --black4: #656565;
     --white: #fff;
+    --light-blue: #79BCCF;
     --hover-color: #79BCCF;
     --font1: sans-serif;
     --regular: 400;
     --medium: 500;
+    --bold: 700;
     --extrabold: 900;
   }
 
@@ -23,6 +22,7 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    border-style: none;
   }
 
   body {

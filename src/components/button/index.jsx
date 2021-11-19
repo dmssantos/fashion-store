@@ -1,0 +1,45 @@
+import styled from "styled-components";
+
+import Arrow from '../../assets/images/arrow1.svg';
+
+const Wrapper = styled.div`
+  width: fit-content;
+  height: fit-content;
+  margin: 36px 80px;
+
+  button {
+    width: 230px;
+    height: 50px;
+    background-color: var(--white);
+    border-radius: 100px;
+    padding: 14px 49px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      font-size: 1.12rem;
+      font-weight: bold;
+      color: var(--light-blue);
+    }
+
+    img {
+
+    }
+  }
+`;
+
+export default function Button() {
+  return (
+    <Wrapper>
+      <button>
+        <span>
+          BUY NOW
+        </span>
+
+        <img src={Arrow} alt="arrow" />
+      </button>
+    </Wrapper>
+  )
+};
