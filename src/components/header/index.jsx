@@ -29,7 +29,8 @@ const Logo = styled.div`
     font-size: 2.25rem;
     color: var(--black1);
     margin-left: 23px;
-    font-family: var(--font1);
+    font-family: var(--montserrat);
+    font-weight: 600;
   }
 `;
 
@@ -48,7 +49,7 @@ const Menus = styled.ul`
     li {
       padding: 3px 5px;
       font-size: 1.12rem;
-      font-family: var(--font1);
+      font-family: var(--montserrat);
       font-weight: 800;
       color: var(--black2);
     }

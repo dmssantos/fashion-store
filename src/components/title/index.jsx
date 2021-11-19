@@ -1,35 +1,36 @@
 import styled from "styled-components";
 
-
-
 const TitleBox = styled.div`
   width: 658px;
   height: 352px;
   margin: 82.5px 0 0 80px;
-  font-family: var(--font1);
 
   h3 {
     font-size: 1.5rem;
-    font-weight: var(--medium);
+    font-family: var(--roboto);
+    font-weight: 500;
     color: var(--white);
     margin-bottom: 23px;
   }
 
   h2 {
     font-size: 4rem;
-    font-weight: var(--extrabold);
+    font-family: var(--montserrat);
+    font-weight: 800;
     color: var(--black3);
     margin-bottom: 23px;
 
     span {
-      font-weight: var(--regular);
+      font-family: var(--montserrat);
+      font-weight: 400;
     }
   }
 
   p {
     width: 529px;
     font-size: 0.87rem;
-    font-weight: var(--medium);
+    font-family: var(--montserrat);
+    font-weight: 500;
     color: var(--black4);
     line-height: 28px;
   }

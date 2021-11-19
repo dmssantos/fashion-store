@@ -1,6 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
+
+
 export default createGlobalStyle`
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Roboto:wght@500&display=swap');
+
   :root {
     --gradient: linear-gradient(to bottom right, #C3E3FA, #EFAFBC);
     --black1: #5F5F5F;
@@ -11,10 +16,8 @@ export default createGlobalStyle`
     --light-blue: #79BCCF;
     --hover-color: #79BCCF;
     --font1: sans-serif;
-    --regular: 400;
-    --medium: 500;
-    --bold: 700;
-    --extrabold: 900;
+    --roboto: 'Roboto', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
   }
 
   * {

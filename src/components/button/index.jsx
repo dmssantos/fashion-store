@@ -20,7 +20,8 @@ const Wrapper = styled.div`
 
     span {
       font-size: 1.12rem;
-      font-weight: bold;
+      font-family: var(--montserrat);
+      font-weight: 700;
       color: var(--light-blue);
     }
 
