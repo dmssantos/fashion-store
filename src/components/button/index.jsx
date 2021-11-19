@@ -5,7 +5,7 @@ import Arrow from '../../assets/images/arrow1.svg';
 const Wrapper = styled.div`
   width: fit-content;
   height: fit-content;
-  margin: 36px 80px;
+  padding-left: 80px;
 
   button {
     width: 230px;

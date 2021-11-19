@@ -12,6 +12,7 @@ export default createGlobalStyle`
     --black2: #787878;
     --black3: #444444;
     --black4: #656565;
+    --rose: #EFAFBC;
     --white: #fff;
     --light-blue: #79BCCF;
     --hover-color: #79BCCF;

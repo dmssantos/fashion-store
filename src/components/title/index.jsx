@@ -3,10 +3,10 @@ import styled from "styled-components";
 const TitleBox = styled.div`
   width: 658px;
   height: 352px;
-  margin: 82.5px 0 0 80px;
-
+  padding: 50px 0 39px 80px;
+    
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: var(--roboto);
     font-weight: 500;
     color: var(--white);
@@ -14,7 +14,7 @@ const TitleBox = styled.div`
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 3.7rem;
     font-family: var(--montserrat);
     font-weight: 800;
     color: var(--black3);
@@ -35,8 +35,6 @@ const TitleBox = styled.div`
     line-height: 28px;
   }
 `;
-
-
 
 export default function Title() {
   return (
