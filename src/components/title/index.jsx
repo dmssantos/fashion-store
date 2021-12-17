@@ -3,7 +3,7 @@ import styled from "styled-components";
 const TitleBox = styled.div`
   width: 658px;
   height: 352px;
-  padding: 50px 0 39px 80px;
+  padding: 50px 0 39px 0;
     
   h3 {
     font-size: 1.4rem;

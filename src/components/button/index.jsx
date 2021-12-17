@@ -5,7 +5,6 @@ import Arrow from '../../assets/images/arrow1.svg';
 const Wrapper = styled.div`
   width: fit-content;
   height: fit-content;
-  padding-left: 80px;
 
   button {
     width: 230px;
@@ -23,10 +22,6 @@ const Wrapper = styled.div`
       font-family: var(--montserrat);
       font-weight: 700;
       color: var(--light-blue);
-    }
-
-    img {
-
     }
   }
 `;

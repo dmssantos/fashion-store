@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Title from '../../components/title/index';
 import Button from '../../components/button/index';
 import Thumbnail from '../../components/thumbnail/index';
+import Social from '../../components/social/index';
 
 const Wrapper = styled.div`
   width: 100vw;
@@ -14,7 +15,7 @@ const Wrapper = styled.div`
 `;
 
 const Column = styled.div`
-
+  padding-left: 80px;
 `;
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Column>
         <Title />
         <Button />
+        <Social />
       </Column>
       <Column>
       <Thumbnail />
