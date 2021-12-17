@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const TitleBox = styled.div`
-  width: 658px;
+  width: 570px;
   height: 352px;
-  padding: 50px 0 39px 0;
+  padding: 0 0 39px 0;
     
   h3 {
     font-size: 1.4rem;

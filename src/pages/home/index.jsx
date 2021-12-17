@@ -3,6 +3,7 @@ import Title from '../../components/title/index';
 import Button from '../../components/button/index';
 import Thumbnail from '../../components/thumbnail/index';
 import Social from '../../components/social/index';
+import Product from '../../components/product/index';
 
 const Wrapper = styled.div`
   width: 100vw;
@@ -11,24 +12,20 @@ const Wrapper = styled.div`
   z-index: 1;
 
   display: flex;
-  flex-direction: row;
-`;
+  flex-direction: column;
+  flex-wrap: wrap;
 
-const Column = styled.div`
-  padding-left: 80px;
+  padding: 50px 80px;
 `;
 
 export default function Home() {
   return (
     <Wrapper>
-      <Column>
-        <Title />
-        <Button />
-        <Social />
-      </Column>
-      <Column>
+      <Title />
+      <Button />
+      <Social />
       <Thumbnail />
-      </Column>
+      {/* <Product /> */}
     </Wrapper>
   )
 };
