@@ -10,9 +10,6 @@ function App() {
   return (
     <>
       <Global />
-      <Header />
-      <Home />
-      <Background />
     </>
   );
 }
