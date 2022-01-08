@@ -11,6 +11,7 @@ export default createGlobalStyle`
     --montserrat: 'Montserrat', sans-serif;
     --roboto: 'Roboto', sans-serif;
     --font-normal: sans-serif;
+    --medium: 500;
     --semi-bold: 600;
     //sizes
     --logo: 36px;
@@ -23,6 +24,7 @@ export default createGlobalStyle`
     --header4: 12px;
     --paragraph: 14px:
     --icon: 32px;
+    
     //Collors
     --gradient: linear-gradient(to bottom right, #C3E3FA, #EFAFBC);
 
