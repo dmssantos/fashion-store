@@ -7,18 +7,36 @@ export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Roboto:wght@500&display=swap');
 
   :root {
-    --gradient: linear-gradient(to bottom right, #C3E3FA, #EFAFBC);
-    --black1: #5F5F5F;
-    --black2: #787878;
-    --black3: #444444;
-    --black4: #656565;
-    --rose: #EFAFBC;
-    --white: #fff;
-    --light-blue: #79BCCF;
-    --hover-color: #79BCCF;
-    --font1: sans-serif;
-    --roboto: 'Roboto', sans-serif;
+    //fonts
     --montserrat: 'Montserrat', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --font-normal: sans-serif;
+    //sizes
+    --logo: 36px;
+    --menu: 18px;
+    --button: 18px;
+
+    --header1: 24px;
+    --header2: 64px;
+    --header3: 18px;
+    --header4: 12px;
+    --paragraph: 14px:
+    --icon: 32px;
+    //Collors
+    --gradient: linear-gradient(to bottom right, #C3E3FA, #EFAFBC);
+
+    --blackLogo: #5F5F5F;
+    --black-Menu: #787878;
+    --blackTitle: #444444;
+    --blackParagraph: #656565;
+    --blackCircle: #1C1B20;
+
+    --primaryColor: #79BCCF;
+    --SecondColor: #EFAFBC;
+
+    --whiteNormal: #fff;
+
+    --fullSize: calc(100vh - 100px)
   }
 
   * {

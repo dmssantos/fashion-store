@@ -1,15 +1,14 @@
 import Global from './global';
 
-//Components
-import Header from './components/header/index';
-import Home from './pages/home';
-import Background from './components/background/index';
+//Pages
+import Home from './pages/index';
 
 //Functions
 function App() {
   return (
     <>
       <Global />
+      <Home />
     </>
   );
 }
