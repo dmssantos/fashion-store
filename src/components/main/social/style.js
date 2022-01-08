@@ -4,7 +4,8 @@ const Wrapper = styled.div`
   width: 168px;
   height: 32px;
 
-  background: red;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export {
