@@ -4,13 +4,14 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Roboto:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Roboto:wght@500&display=swap');
 
   :root {
     //fonts
     --montserrat: 'Montserrat', sans-serif;
     --roboto: 'Roboto', sans-serif;
     --font-normal: sans-serif;
+    --semi-bold: 600;
     //sizes
     --logo: 36px;
     --menu: 18px;
@@ -26,7 +27,7 @@ export default createGlobalStyle`
     --gradient: linear-gradient(to bottom right, #C3E3FA, #EFAFBC);
 
     --blackLogo: #5F5F5F;
-    --black-Menu: #787878;
+    --blackMenu: #787878;
     --blackTitle: #444444;
     --blackParagraph: #656565;
     --blackCircle: #1C1B20;
