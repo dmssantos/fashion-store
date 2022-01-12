@@ -4,7 +4,7 @@ import store from '../../assets/images/store.svg';
 
 const Wrapper = styled.header`
   width: 100%;
-  height: 100px;
+  height: 80px;
 
   padding: 0 80px;
 

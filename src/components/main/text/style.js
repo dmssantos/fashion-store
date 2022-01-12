@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  width: 656px;
-  height: 352px;
+  width: 756px;
+  margin-bottom: 39px;
 
   h1 {
     font-family: var(--roboto);
@@ -10,6 +10,7 @@ const Wrapper = styled.div`
     font-size: var(--header1);
     color: var(--whiteNormal);
     letter-spacing: 0.27em;
+    margin-bottom: 23px;
   }
 
   h2 {
@@ -17,6 +18,7 @@ const Wrapper = styled.div`
     font-weight: 400;
     font-size: var(--header2);
     color: var(--blackTitle);
+    margin-bottom: 23px;
 
     span {
       font-weight: 800;

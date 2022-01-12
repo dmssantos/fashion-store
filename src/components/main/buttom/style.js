@@ -6,6 +6,7 @@ const Wrapper = styled.button`
   background: var(--whiteNormal);
   box-shadow: 0px 7px 20px rgba(121, 188, 207, 0.4);
   border-radius: 100px;
+  margin-bottom: 100px;
 
   span {
     font-family: var(--montserrat);

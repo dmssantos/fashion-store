@@ -14,16 +14,16 @@ export default createGlobalStyle`
     --medium: 500;
     --semi-bold: 600;
     //sizes
-    --logo: 36px;
-    --menu: 18px;
-    --button: 18px;
+    --logo: 2.25em;
+    --menu: 1.12em;
+    --button: 1.12em;
 
-    --header1: 24px;
-    --header2: 64px;
-    --header3: 18px;
-    --header4: 12px;
-    --paragraph: 14px:
-    --icon: 32px;
+    --header1: 1.4em; /* 1.5em*/
+    --header2: 3.5em; /*4em */
+    --header3: 1.12em;
+    --header4: 0.75em;
+    --paragraph: 0.87em:
+    --icon: 2em;
     
     //Collors
     --gradient: linear-gradient(to bottom right, #C3E3FA, #EFAFBC);
@@ -39,7 +39,7 @@ export default createGlobalStyle`
 
     --whiteNormal: #fff;
 
-    --fullSize: calc(100vh - 100px)
+    --fullSize: calc(100vh - 80px)
   }
 
   * {
