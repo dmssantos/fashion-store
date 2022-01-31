@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  width: 756px;
+  width: 656px;
   margin-bottom: 39px;
+
+  position: relative;
 
   h1 {
     font-family: var(--roboto);

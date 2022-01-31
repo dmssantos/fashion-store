@@ -1,7 +1,10 @@
-import {Wrapper} from './style';
+import { Wrapper } from './style';
+import product from '../../../assets/images/product.svg';
 
 export default function Product() {
-  return(
-    <Wrapper />
+  return (
+    <Wrapper>
+      <img src={product} alt="jaket" />
+    </Wrapper>
   )
 }

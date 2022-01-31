@@ -8,6 +8,8 @@ const Wrapper = styled.button`
   border-radius: 100px;
   margin-bottom: 100px;
 
+  position: relative;
+
   span {
     font-family: var(--montserrat);
     font-weight: 700;
